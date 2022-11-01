@@ -1,0 +1,113 @@
+body {
+	background: #eeeeff;
+}
+
+#superior {
+	display: flex;
+	background: skyblue;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#superior p {
+	margin: auto;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#header {
+	background: #ffffff;
+	display: flex;
+}
+
+#bolo1 {
+	width: 10%;
+	display: block;
+	margin-left: 50px;
+}
+
+#bolo2 {
+	width: 10%;
+	display: block;
+	margin-right: 50px;
+}
+
+#header p {
+	font-size: 77px;
+	margin: auto;
+	font-weight: bold;
+	color: skyblue;
+	text-shadow:-1px -1px 0px #000, 
+				-1px 1px 0px #000,                    
+				1px -1px 0px #000,                  
+				1px 0px 0px #000;
+}
+
+#meio {
+	color: skyblue;
+	width: 100%;
+	background: skyblue;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.bolos {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 8%;
+	border: 1px solid;
+	border-radius: 12px;
+}
+
+#receitas {
+	display: inline-flex;
+}
+
+.receita {
+	width: 30%;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background: #ffffff;
+	border: 2px solid;
+	border-radius: 15px;
+}
+
+.receita h1 {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	color: darkorange;
+	margin-top: 17px;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+.receita p {
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 17px;
+	display: block;
+}
+
+.receita h2 {
+	font-weight: bold;
+	color: cadetblue;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 25px;
+	margin-bottom: -10px;
+	text-shadow:-1px -1px 0px #000, 
+				-1px 1px 0px #000,                    
+				1px -1px 0px #000,                  
+				1px 0px 0px #000;
+}
